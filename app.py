@@ -7,6 +7,6 @@ with st.sidebar:
         "** Upload PDF files for AnA**", type=["pdf"], accept_multiple_files=False
     )
     
-    process = st.tk.Button(
+    process = st.Button(
         "Process"
     )
